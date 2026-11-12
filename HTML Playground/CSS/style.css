@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f6f0e6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 25px 20px 60px;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #f6f0e6;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 11px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e87545;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Headings */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 4px;
+    background-color: #e87545;
+    margin: 12px auto;
+    border-radius: 5px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #625c54;
+}
+
+small {
+    color: #e87545;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    width: 170px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#box6, #box8, #box9, #box10, #box11, #box12, #box13, #box14, #box15, #box16, #box17, #box18, #box19, #box20, #box21 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    width: 170px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#box22, #box23, #box24, #box25, #box26, #box27, #box28, #box29, #box30, #box31 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    width: 170px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+#box32, #box33, #box34, #box35, #box36, #box37, #box38, #box39, #box40, #box41 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    width: 170px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover {
+    transform: scale(1.1);
+}
+
+#box6:hover, #box8:hover, #box9:hover, #box10:hover, #box11:hover, #box12:hover, #box13:hover, #box14:hover, #box15:hover, #box16:hover, #box17:hover, #box18:hover, #box19:hover, #box20:hover, #box21:hover {
+    transform: scale(1.1);
+}
+
+#box22:hover, #box23:hover, #box24:hover, #box25:hover, #box26:hover, #box27:hover, #box28:hover, #box29:hover, #box30:hover, #box31:hover {
+    transform: scale(1.1);
+}
+
+#box32:hover, #box33:hover, #box34:hover, #box35:hover, #box36:hover, #box37:hover, #box38:hover, #box39:hover, #box40:hover, #box41:hover {
+    transform: scale(1.1);
+} 
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box7 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    box-sizing: border-box; 
+    transition: transform 0.3s ease;
+}
+
+.box7:hover {
+    transform: scale(1.1);
+}
+
+.music, .movie, .snack {
+    width: 50%;
+    margin: auto;
+}
+
+figure img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+figcaption {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #242323
+}
+
+figure {
+    margin: 12px;
+}
+
+a[href="#top"] {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 12px 25px;
+    background-color: #242323;
+    color: #F6F0E6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+a[href="#top"]:hover {
+    background-color: #E87545;
+    color: white;
+    transform: translateY(-3px);
+}
